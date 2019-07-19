@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20100678273",
+    "firebase_url": "https://registrationformapp.firebaseio.com",
+    "project_id": "registrationformapp",
+    "storage_bucket": "registrationformapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20100678273:android:7e8c272b90da37cf",
+        "android_client_info": {
+          "package_name": "com.intern.registrationformapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20100678273-eh27ck1g20mnjrginp4iqpvt21nohnam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intern.registrationformapp",
+            "certificate_hash": "51b4d81742b98e85251aebf36d4506ba5f90195b"
+          }
+        },
+        {
+          "client_id": "20100678273-j2jqdke4c36mjq2bsi5hqrpbrs6ea784.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1qNs0q9FJ2-G0WhKLe1uwY9BKYkwGT7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20100678273-j2jqdke4c36mjq2bsi5hqrpbrs6ea784.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

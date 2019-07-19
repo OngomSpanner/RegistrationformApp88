@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        tools:context=".register_form"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:gravity="center"
+            android:layout_width="53dp"
+
+            android:layout_height="53dp"
+            app:layout_constraintTop_toTopOf="@+id/IvuploadPerson"
+            app:layout_constraintLeft_toLeftOf="@+id/IvuploadPerson"
+            app:layout_constraintRight_toRightOf="@+id/IvuploadPerson"
+
+            app:layout_constraintBottom_to_BottomOf="@+id/IvuploadPerson"
+            app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginLeft="8dp"
+    />
+    <ImageView
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="60dp"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/persoicon"
+            android:id="@+id/IvuploadPerson"
+            android:contentDescription="TODO"
+            android:layout_marginTop="4dp"/>
+
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/IvuploadPerson"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_width="300dp"
+            android:layout_marginLeft="20sp"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Full Name"
+            android:ems="10"
+            android:id="@+id/etfullname" app:layout_constraintHorizontal_bias="0.1" android:autofillHints=""/>
+
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/etfullname"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_width="300dp"
+            android:layout_marginLeft="20sp"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/gender"
+            android:ems="10"
+            android:id="@+id/etgender" app:layout_constraintHorizontal_bias="0.1" android:autofillHints=""
+            android:layout_marginStart="20sp"/>
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/etgender"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_width="300dp"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/date"
+            app:layout_constraintHorizontal_bias="0.1" android:inputType="date"
+            android:hint="@string/dd_mm_yyyy" android:autofillHints=""/>
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/date"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_width="303dp"
+            android:hint="@string/email_address"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/etEmailReg"
+            app:layout_constraintHorl_bias="0.1" app:layout_constraintHorizontal_bias="0.108" android:autofillHints=""/>
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/etEmailReg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:hint="@string/position_e_g_fan_staff_player_etc"
+            android:layout_marginLeft="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/etPositionReg"
+            app:layout_constraintHorizontal_bias="0.1"/>
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/etPositionReg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:textColorHint="@color/white"
+            android:hint="@string/home_address"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/etAddressReg"
+            app:layout_constraintHorizontal_bias="0.1"/>
+    <EditText
+            app:layout_constraintTop_toBottomOf="@+id/etAddressReg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="12dp"
+            android:layout_width="300dp"
+            android:hint="@string/tel"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/etPhoneReg" app:layout_constraintHorizontal_bias="0.1"/>
+    <LinearLayout
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/etPhoneReg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="20sp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20sp"
+            android:layout_width="300dp"
+            android:layout_height="60dp">
+        <Button
+                android:text="@string/save"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                style="?android:attr/buttonBarStyle"
+                android:layout_height="match_parent"
+                android:id="@+id/buSave"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintVertical_bias="0.016"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

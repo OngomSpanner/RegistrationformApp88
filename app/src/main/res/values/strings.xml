@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Registration form App</string>
+    <string name="member_registration_app">Member Registration App</string>
+    <string name="add_new_member">ADD NEW MEMBER</string>
+    <string name="view_member">VIEW MEMBER</string>
+    <string name="todo">TODO</string>
+    <string name="reset">RESET</string>
+    <string name="save">SAVE</string>
+    <string name="full_name_here">Full name here</string>
+    <string name="gender">Gender:</string>
+    <string name="dob_here">DOB here</string>
+    <string name="full_name">Full Name :</string>
+    <string name="d_o_b">D. O. B :</string>
+    <string name="gender_here">gender here</string>
+    <string name="tel_here">Tel here</string>
+    <string name="tel">Tel :</string>
+    <string name="home_address_here">home Address here</string>
+    <string name="home_address">Home Address :</string>
+    <string name="email_here">Email here</string>
+    <string name="email">Email :</string>
+    <string name="profile_information">PROFILE INFORMATION</string>
+    <string name="position_e_g_fan_staff_player_etc">Position e.g fan, staff, player, etc</string>
+    <string name="email_address">email Address</string>
+    <string name="fill_in_the_field_below">Fill in the Field below</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="position">Position</string>
+</resources>
